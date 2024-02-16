@@ -8,7 +8,7 @@ The following code is for building and flashing the Crazyflie firmware, and acti
 git clone 
 make menuconfig
 make -j12
-make cload``
+make cload```
 
 
 ## Official Documentation
