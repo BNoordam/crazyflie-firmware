@@ -4,11 +4,11 @@ This project contains the source code for the firmware used in the Crazyflie ran
 
 ## Building and Flashing
 The following code is for building and flashing the Crazyflie firmware, and activating the Crazyflie as a WiFi hotspot.
-```sudo apt install build-essential libncurses5-dev```
-```git clone``` 
-```make menuconfig```
-```make -j12```
-```make cload```
+```sudo apt install build-essential libncurses5-dev
+git clone
+make menuconfig
+make -j12
+make cload```
 
 
 ## Official Documentation
