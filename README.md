@@ -12,7 +12,7 @@ In line 480 of locodeck.c the following code is added: "vTaskDelay(M2T(3000));" 
 Otherwise these decks have a GPIO pin conflict  
 ```
 sudo apt install build-essential libncurses5-dev
-git clone https://github.com/BNoordam/crazyflie-firmware
+git clone https://github.com/BNoordam/crazyflie-firmware.git
 cd crazyflie-firmware
 make menuconfig
 make -j 12
