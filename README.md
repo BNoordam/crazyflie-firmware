@@ -18,7 +18,15 @@ make menuconfig
 make -j 12
 make cload
 ```
+## UPDATE
+Flashing no longer seems to work on my Ubuntu install. What does work is flashing via the bitcraze virtual machine with the code below. How to install and update the virtual machine can be found in section 4 of the final report.  
 
+```
+cd projects/crazyflie-firmware
+make menuconfig
+make -j 12
+make cload
+```
 
 ## Official Documentation
 
